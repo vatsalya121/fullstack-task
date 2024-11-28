@@ -31,3 +31,64 @@ This repository contains the solution for the Fullstack Task, which includes thr
 4.To destroy the infrastructure:
 ```bash
 terraform destroy
+```
+##Part 2: Backend (Go)
+
+###Requirements:
+-Built a JSON REST API using Go to connect to MongoDB.
+-Implemented search functionality by character name to fetch character details.
+
+###Key Features:
+-Clean Go code architecture.
+-Error handling implemented.
+-MongoDB connection and search functionality.
+
+###Setup Instructions:
+1. Clone the repository.
+2. Install dependencies:
+```bash
+go mod tidy
+```
+3. Run the Go backend:
+```bash
+go run main.go
+```
+4. The API will be accessible at http://localhost:8080.
+   
+###Endpoints:
+-GET /characters - Fetch all characters.
+-GET /characters/{name} - Fetch character details by name.
+
+##Part 3: Frontend (React + TypeScript)
+
+###Requirements:
+
+-Built a search engine for character names.
+-Displayed character details and associated episode numbers.
+-Handled loading and error states.
+-Added basic styling using TailwindCSS.
+
+###Key Features:
+
+-TypeScript implementation.
+-Component structure and state management using React.
+-TailwindCSS for styling.
+
+###Setup Instructions:
+
+1. Clone the repository.
+2. Navigate to the frontend folder:
+   ```bash
+   cd frontend
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Run the React app:
+```bash
+   npm start
+```
+5. The frontend will be available at http://localhost:3000.
+
+
