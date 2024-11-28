@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"github.com/vatsalya121/fullstack-task/backend/handler"
-    "github.com/vatsalya121/fullstack-task/backend/service"
-    "github.com/vatsalya121/fullstack-task/backend/model"
+	"backend/handler"
+    "backend/service"
 	"github.com/gorilla/mux"
 )
 

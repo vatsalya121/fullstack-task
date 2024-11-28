@@ -3,13 +3,10 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"log"
 	"net/http"
-	"github.com/vatsalya121/fullstack-task/backend/service"
-    "github.com/vatsalya121/fullstack-task/backend/model"
+	"backend/service"
 	"github.com/gorilla/mux"
 	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/bson"
 )
 
 // GetCharactersHandler fetches all characters from MongoDB

@@ -1,4 +1,4 @@
-module github.com/vatsalya121/fullstack-task/backend
+module backend
 
 go 1.23.3
 
