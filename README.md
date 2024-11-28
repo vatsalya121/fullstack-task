@@ -133,7 +133,6 @@ go run main.go
 ```bash
 /terraform
     ├── main.tf
-    └── variables.tf
 
 /Backend
     ├── main.go
