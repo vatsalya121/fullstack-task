@@ -91,4 +91,68 @@ go run main.go
 ```
 5. The frontend will be available at http://localhost:3000.
 
+##Components:
+-SearchBar - Allows the user to search for characters by name.
+-CharacterCard - Displays character details and associated episodes.
+
+##Styling:
+-Basic styling is done using TailwindCSS for responsiveness and clean UI design.
+
+##Screenshot of Frontend UI:
+
+###Architecture Overview
+
+##MongoDB Setup (Cloud Infrastructure):
+-MongoDB is deployed on a Google Compute Engine instance with Block Storage.
+-The database stores character data fetched from the Rick and Morty API.
+
+##Backend (Go):
+-The Go backend exposes REST APIs to interact with MongoDB.
+-The backend connects to MongoDB and provides the search functionality for character names.
+
+##Frontend (React + TypeScript):
+-The frontend is a React application with TypeScript.
+-It communicates with the backend to fetch character data and display it to the user.
+
+##Testing Instructions
+
+#Backend:
+
+-Ensure MongoDB is running locally or on the cloud.
+-Run the backend using go run main.go.
+-Test the API endpoints using Postman or curl.
+-GET /characters - Fetch all characters.
+-GET /characters/{name} - Fetch character details by name.
+
+#Frontend:
+-Ensure the backend is running locally at http://localhost:8080.
+-Run the frontend with npm start and test the UI.
+-Test the character search functionality and ensure proper error handling.
+
+###Directories Structure
+```bash
+/terraform
+    ├── main.tf
+    └── variables.tf
+
+/Backend
+    ├── main.go
+    ├── handler
+    └── service
+
+/Frontend
+    ├── src
+    ├── components
+    ├── images
+    └── tailwind.config.js
+```
+###GitHub Setup
+
+-Create a GitHub repository and push the code to the repository.
+-Use pull requests for code merging and squash commits while merging.
+-Do not force push and avoid forking the repository.
+-Ensure that the README.md contains all the setup and documentation details.
+
+
+
 
