@@ -34,16 +34,16 @@ terraform destroy
 ```
 ##Part 2: Backend (Go)
 
-###Requirements:
+### Requirements:
 -Built a JSON REST API using Go to connect to MongoDB.
 -Implemented search functionality by character name to fetch character details.
 
-###Key Features:
+### Key Features:
 -Clean Go code architecture.
 -Error handling implemented.
 -MongoDB connection and search functionality.
 
-###Setup Instructions:
+### Setup Instructions:
 1. Clone the repository.
 2. Install dependencies:
 ```bash
@@ -55,26 +55,26 @@ go run main.go
 ```
 4. The API will be accessible at http://localhost:8080.
    
-###Endpoints:
+### Endpoints:
 -GET /characters - Fetch all characters.
 -GET /characters/{name} - Fetch character details by name.
 
-##Part 3: Frontend (React + TypeScript)
+## Part 3: Frontend (React + TypeScript)
 
-###Requirements:
+### Requirements:
 
 -Built a search engine for character names.
 -Displayed character details and associated episode numbers.
 -Handled loading and error states.
 -Added basic styling using TailwindCSS.
 
-###Key Features:
+### Key Features:
 
 -TypeScript implementation.
 -Component structure and state management using React.
 -TailwindCSS for styling.
 
-###Setup Instructions:
+### Setup Instructions:
 
 1. Clone the repository.
 2. Navigate to the frontend folder:
@@ -91,32 +91,32 @@ go run main.go
 ```
 5. The frontend will be available at http://localhost:3000.
 
-##Components:
+## Components:
 -SearchBar - Allows the user to search for characters by name.
 -CharacterCard - Displays character details and associated episodes.
 
-##Styling:
+## Styling:
 -Basic styling is done using TailwindCSS for responsiveness and clean UI design.
 
-##Screenshot of Frontend UI:
+## Screenshot of Frontend UI:
 
-###Architecture Overview
+### Architecture Overview
 
-##MongoDB Setup (Cloud Infrastructure):
+## MongoDB Setup (Cloud Infrastructure):
 -MongoDB is deployed on a Google Compute Engine instance with Block Storage.
 -The database stores character data fetched from the Rick and Morty API.
 
-##Backend (Go):
+## Backend (Go):
 -The Go backend exposes REST APIs to interact with MongoDB.
 -The backend connects to MongoDB and provides the search functionality for character names.
 
-##Frontend (React + TypeScript):
+## Frontend (React + TypeScript):
 -The frontend is a React application with TypeScript.
 -It communicates with the backend to fetch character data and display it to the user.
 
-##Testing Instructions
+## Testing Instructions
 
-#Backend:
+# Backend:
 
 -Ensure MongoDB is running locally or on the cloud.
 -Run the backend using go run main.go.
@@ -124,12 +124,12 @@ go run main.go
 -GET /characters - Fetch all characters.
 -GET /characters/{name} - Fetch character details by name.
 
-#Frontend:
+# Frontend:
 -Ensure the backend is running locally at http://localhost:8080.
 -Run the frontend with npm start and test the UI.
 -Test the character search functionality and ensure proper error handling.
 
-###Directories Structure
+### Directories Structure
 ```bash
 /terraform
     ├── main.tf
@@ -146,7 +146,7 @@ go run main.go
     ├── images
     └── tailwind.config.js
 ```
-###GitHub Setup
+### GitHub Setup
 
 -Create a GitHub repository and push the code to the repository.
 -Use pull requests for code merging and squash commits while merging.
