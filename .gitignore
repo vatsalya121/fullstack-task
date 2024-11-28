@@ -1,0 +1,11 @@
+# Ignore Terraform directories
+.terraform/
+
+# Ignore log files
+*.log
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore system files
+.DS_Store
