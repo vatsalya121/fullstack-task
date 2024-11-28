@@ -90,6 +90,8 @@ go run main.go
    npm start
 ```
 5. The frontend will be available at http://localhost:3000.
+   <img width="1679" alt="Screenshot 2024-11-28 at 8 12 07 PM" src="https://github.com/user-attachments/assets/c2746c23-ff8e-45cb-b860-06c88687b5c6">
+
 
 ## Components:
 -SearchBar - Allows the user to search for characters by name.
