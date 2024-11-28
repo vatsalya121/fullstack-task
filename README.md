@@ -28,3 +28,6 @@ This repository contains the solution for the Fullstack Task, which includes thr
    ```bash
    terraform init
    terraform apply
+4.To destroy the infrastructure:
+```bash
+terraform destroy
